@@ -9,7 +9,7 @@ data SEGMENT
 	; déclarez ici une variable "nom" initialisée avec une chaîne de caractères contenant votre nom (uniquement votre nom, sans espace et accent.
 	; Utilisez le caractère '_' entre les différentes parties de votre nom si votre nom est en plusieurs parties)
 	; COMPLETER ICI
-  nom DB "BEAUCHAMPS", "$" ; Déclaration de la variable "nom" en respectant les consignes donné juste au dessus. le caractère "$" permet de définir la fin de la chaîne de carractère (équivalant à '0\')
+  nom DB "NO_DE_FAMILLE", "$" ; Déclaration de la variable "nom" en respectant les consignes donné juste au dessus. le caractère "$" permet de définir la fin de la chaîne de carractère (équivalant à '0\')
 
 	msg_saisie DB "Veuillez saisir un nombre binaire sur 16 bits au maximum (appuyez sur ENTREE pour terminer) : ",'$'
 
